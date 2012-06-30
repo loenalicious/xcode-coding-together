@@ -10,6 +10,7 @@
 		32532EFE159F6364001BBF8D /* CalculatorBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 32532EFD159F6364001BBF8D /* CalculatorBackground.m */; };
 		32718B25159F3F0500C6F382 /* CalculatorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 32718B24159F3F0500C6F382 /* CalculatorButton.m */; };
 		32718B28159F49C000C6F382 /* CalculatorEnterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 32718B27159F49C000C6F382 /* CalculatorEnterButton.m */; };
+		32C47982159F81F6000BBDED /* CalculatorNumbersBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C47981159F81F6000BBDED /* CalculatorNumbersBackground.m */; };
 		32F40175159DC9AA00889259 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F40174159DC9AA00889259 /* UIKit.framework */; };
 		32F40177159DC9AA00889259 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F40176159DC9AA00889259 /* Foundation.framework */; };
 		32F40179159DC9AA00889259 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F40178159DC9AA00889259 /* CoreGraphics.framework */; };
@@ -28,6 +29,8 @@
 		32718B24159F3F0500C6F382 /* CalculatorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorButton.m; sourceTree = "<group>"; };
 		32718B26159F49C000C6F382 /* CalculatorEnterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorEnterButton.h; sourceTree = "<group>"; };
 		32718B27159F49C000C6F382 /* CalculatorEnterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorEnterButton.m; sourceTree = "<group>"; };
+		32C47980159F81F6000BBDED /* CalculatorNumbersBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorNumbersBackground.h; sourceTree = "<group>"; };
+		32C47981159F81F6000BBDED /* CalculatorNumbersBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorNumbersBackground.m; sourceTree = "<group>"; };
 		32F40170159DC9AA00889259 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32F40174159DC9AA00889259 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		32F40176159DC9AA00889259 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -97,6 +100,8 @@
 				32718B27159F49C000C6F382 /* CalculatorEnterButton.m */,
 				32532EFC159F6364001BBF8D /* CalculatorBackground.h */,
 				32532EFD159F6364001BBF8D /* CalculatorBackground.m */,
+				32C47980159F81F6000BBDED /* CalculatorNumbersBackground.h */,
+				32C47981159F81F6000BBDED /* CalculatorNumbersBackground.m */,
 				32F40186159DC9AA00889259 /* MainStoryboard.storyboard */,
 				32F40189159DC9AA00889259 /* CalculatorViewController.h */,
 				32F4018A159DC9AA00889259 /* CalculatorViewController.m */,
@@ -188,6 +193,7 @@
 				32718B25159F3F0500C6F382 /* CalculatorButton.m in Sources */,
 				32718B28159F49C000C6F382 /* CalculatorEnterButton.m in Sources */,
 				32532EFE159F6364001BBF8D /* CalculatorBackground.m in Sources */,
+				32C47982159F81F6000BBDED /* CalculatorNumbersBackground.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

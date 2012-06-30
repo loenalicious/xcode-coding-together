@@ -29,6 +29,7 @@
 {
     
     CGContextRef context = UIGraphicsGetCurrentContext();
+    
     CGGradientRef myGradient_0;
     CGColorSpaceRef myColorSpace_0;
     size_t locationCount_0 = 3;

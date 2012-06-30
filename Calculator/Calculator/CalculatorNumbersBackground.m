@@ -1,14 +1,14 @@
 //
-//  CalculatorBackground.m
+//  CalculatorNumbersBackground.m
 //  Calculator
 //
 //  Created by Tamara Houtveen on 30-06-12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "CalculatorBackground.h"
+#import "CalculatorNumbersBackground.h"
 
-@implementation CalculatorBackground
+@implementation CalculatorNumbersBackground
 
 - (id)initWithFrame:(CGRect)frame
 {
@@ -32,12 +32,13 @@
     
     CGGradientRef myGradient_0;
     CGColorSpaceRef myColorSpace_0;
-    size_t locationCount_0 = 2;
-    CGFloat locationList_0[] = {  0,  1 };
+    size_t locationCount_0 = 3;
+    CGFloat locationList_0[] = {  0, 0.073600, 1 };
     CGFloat colorList_0[] = 
     {
-        0.0000, 0.2823, 0.3921 ,1.0,
-        0.0000, 0.1176, 0.1647 ,1.0
+        0.0000, 0.4844, 0.6562 ,1.0,
+        0.0000, 0.4062, 0.5547 ,1.0,
+        0.0000, 0.1953, 0.2695 ,1.0
     };
     myColorSpace_0 = CGColorSpaceCreateDeviceRGB();
     myGradient_0 = CGGradientCreateWithColorComponents(myColorSpace_0, colorList_0, locationList_0, locationCount_0);
