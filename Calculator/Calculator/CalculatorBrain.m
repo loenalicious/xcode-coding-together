@@ -59,15 +59,15 @@
         
     } else if([operation isEqualToString:@"sin"]) {
         
-        result = sin([self popOperand]);
+        result = sin([self popOperand]/180*M_PI);
         
     } else if([operation isEqualToString:@"cos"]) {
         
-        result = cos([self popOperand]);
+        result = cos([self popOperand]/180*M_PI);
         
     } else if([operation isEqualToString:@"sqrt"]) {
         
-        result = sqrt([self popOperand]);
+        result = sqrt([self popOperand]/180*M_PI);
         
     } else if([operation isEqualToString:@"π"]) {
         

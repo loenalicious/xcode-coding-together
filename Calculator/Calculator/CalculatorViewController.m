@@ -9,9 +9,9 @@
 #import "CalculatorViewController.h"
 #import "CalculatorBrain.h"
 @interface CalculatorViewController()
-    @property (nonatomic)BOOL userIsInTheMiddleOfEnteringANumber;
-    @property (strong,nonatomic) NSMutableArray *pointPressed;
-    @property (strong,nonatomic)CalculatorBrain*brain;
+@property (nonatomic)BOOL userIsInTheMiddleOfEnteringANumber;
+@property (strong,nonatomic) NSMutableArray *pointPressed;
+@property (strong,nonatomic)CalculatorBrain*brain;
 @end;
 
 @implementation CalculatorViewController
@@ -21,6 +21,11 @@
 @synthesize userIsInTheMiddleOfEnteringANumber=_userIsInTheMiddleOfEnteringANumber;
 @synthesize brain=_brain;
 @synthesize pointPressed=_pointPressed;
+
+-(void)viewDidLoad{
+    [self.display setFont:[UIFont fontWithName:@"NettoOT-Light" size:50]];
+    [self.passedDisplay setFont:[UIFont fontWithName:@"NettoOT-Light" size:25]];
+}
 
 
 -(CalculatorBrain*)brain{
@@ -33,7 +38,7 @@
 - (NSMutableArray *) pointPressed
 {
     if(_pointPressed == nil){
-      _pointPressed = [[NSMutableArray alloc] init];  
+        _pointPressed = [[NSMutableArray alloc] init];  
     }
     return _pointPressed;
 }
@@ -41,6 +46,7 @@
 
 - (IBAction)digitPressed:(id)sender {
     NSString*digit = [sender currentTitle];
+    self.passedDisplay.text=@"";
     
     if(self.userIsInTheMiddleOfEnteringANumber){
         
@@ -86,7 +92,7 @@
 }
 
 - (IBAction)operationPressed:(id)sender {
-   
+    
     if(self.userIsInTheMiddleOfEnteringANumber) [self enterPressed];  
     double result = [self.brain performOperation:[sender currentTitle]];
     

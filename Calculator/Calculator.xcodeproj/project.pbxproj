@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		32532EFE159F6364001BBF8D /* CalculatorBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 32532EFD159F6364001BBF8D /* CalculatorBackground.m */; };
-		32718B25159F3F0500C6F382 /* CalculatorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 32718B24159F3F0500C6F382 /* CalculatorButton.m */; };
-		32718B28159F49C000C6F382 /* CalculatorEnterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 32718B27159F49C000C6F382 /* CalculatorEnterButton.m */; };
-		32C47982159F81F6000BBDED /* CalculatorNumbersBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C47981159F81F6000BBDED /* CalculatorNumbersBackground.m */; };
+		3252A93315A19B2B00D76A1A /* design_Calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = 3252A93215A19B2B00D76A1A /* design_Calculator.png */; };
+		3252A93515A19B9300D76A1A /* transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 3252A93415A19B9300D76A1A /* transparent.png */; };
+		32E5991415A1B81A003E86B9 /* NettoOT-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3252A93815A1A72300D76A1A /* NettoOT-Light.otf */; };
+		32E5991615A1BB5C003E86B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E5991515A1BB5C003E86B9 /* Foundation.framework */; };
 		32F40175159DC9AA00889259 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F40174159DC9AA00889259 /* UIKit.framework */; };
-		32F40177159DC9AA00889259 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F40176159DC9AA00889259 /* Foundation.framework */; };
 		32F40179159DC9AA00889259 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F40178159DC9AA00889259 /* CoreGraphics.framework */; };
 		32F4017F159DC9AA00889259 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32F4017D159DC9AA00889259 /* InfoPlist.strings */; };
 		32F40181159DC9AA00889259 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F40180159DC9AA00889259 /* main.m */; };
@@ -23,17 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		32532EFC159F6364001BBF8D /* CalculatorBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBackground.h; sourceTree = "<group>"; };
-		32532EFD159F6364001BBF8D /* CalculatorBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBackground.m; sourceTree = "<group>"; };
-		32718B23159F3F0500C6F382 /* CalculatorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorButton.h; sourceTree = "<group>"; };
-		32718B24159F3F0500C6F382 /* CalculatorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorButton.m; sourceTree = "<group>"; };
-		32718B26159F49C000C6F382 /* CalculatorEnterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorEnterButton.h; sourceTree = "<group>"; };
-		32718B27159F49C000C6F382 /* CalculatorEnterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorEnterButton.m; sourceTree = "<group>"; };
-		32C47980159F81F6000BBDED /* CalculatorNumbersBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorNumbersBackground.h; sourceTree = "<group>"; };
-		32C47981159F81F6000BBDED /* CalculatorNumbersBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorNumbersBackground.m; sourceTree = "<group>"; };
+		3252A93215A19B2B00D76A1A /* design_Calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = design_Calculator.png; sourceTree = "<group>"; };
+		3252A93415A19B9300D76A1A /* transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transparent.png; sourceTree = "<group>"; };
+		3252A93815A1A72300D76A1A /* NettoOT-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NettoOT-Light.otf"; sourceTree = "<group>"; };
+		32E5991515A1BB5C003E86B9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		32F40170159DC9AA00889259 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32F40174159DC9AA00889259 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		32F40176159DC9AA00889259 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		32F40178159DC9AA00889259 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		32F4017C159DC9AA00889259 /* Calculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Calculator-Info.plist"; sourceTree = "<group>"; };
 		32F4017E159DC9AA00889259 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -53,8 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32E5991615A1BB5C003E86B9 /* Foundation.framework in Frameworks */,
 				32F40175159DC9AA00889259 /* UIKit.framework in Frameworks */,
-				32F40177159DC9AA00889259 /* Foundation.framework in Frameworks */,
 				32F40179159DC9AA00889259 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -62,6 +56,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3252A93D15A1A85E00D76A1A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3252A93215A19B2B00D76A1A /* design_Calculator.png */,
+				3252A93415A19B9300D76A1A /* transparent.png */,
+				3252A93815A1A72300D76A1A /* NettoOT-Light.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		32F40165159DC9AA00889259 = {
 			isa = PBXGroup;
 			children = (
@@ -82,8 +86,8 @@
 		32F40173159DC9AA00889259 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				32E5991515A1BB5C003E86B9 /* Foundation.framework */,
 				32F40174159DC9AA00889259 /* UIKit.framework */,
-				32F40176159DC9AA00889259 /* Foundation.framework */,
 				32F40178159DC9AA00889259 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
@@ -94,19 +98,12 @@
 			children = (
 				32F40183159DC9AA00889259 /* CalculatorAppDelegate.h */,
 				32F40184159DC9AA00889259 /* CalculatorAppDelegate.m */,
-				32718B23159F3F0500C6F382 /* CalculatorButton.h */,
-				32718B24159F3F0500C6F382 /* CalculatorButton.m */,
-				32718B26159F49C000C6F382 /* CalculatorEnterButton.h */,
-				32718B27159F49C000C6F382 /* CalculatorEnterButton.m */,
-				32532EFC159F6364001BBF8D /* CalculatorBackground.h */,
-				32532EFD159F6364001BBF8D /* CalculatorBackground.m */,
-				32C47980159F81F6000BBDED /* CalculatorNumbersBackground.h */,
-				32C47981159F81F6000BBDED /* CalculatorNumbersBackground.m */,
 				32F40186159DC9AA00889259 /* MainStoryboard.storyboard */,
 				32F40189159DC9AA00889259 /* CalculatorViewController.h */,
 				32F4018A159DC9AA00889259 /* CalculatorViewController.m */,
 				32F40191159DD3C600889259 /* CalculatorBrain.h */,
 				32F40192159DD3C600889259 /* CalculatorBrain.m */,
+				3252A93D15A1A85E00D76A1A /* Resources */,
 				32F4017B159DC9AA00889259 /* Supporting Files */,
 			);
 			path = Calculator;
@@ -174,8 +171,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32E5991415A1B81A003E86B9 /* NettoOT-Light.otf in Resources */,
 				32F4017F159DC9AA00889259 /* InfoPlist.strings in Resources */,
 				32F40188159DC9AA00889259 /* MainStoryboard.storyboard in Resources */,
+				3252A93315A19B2B00D76A1A /* design_Calculator.png in Resources */,
+				3252A93515A19B9300D76A1A /* transparent.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,10 +190,6 @@
 				32F40185159DC9AA00889259 /* CalculatorAppDelegate.m in Sources */,
 				32F4018B159DC9AA00889259 /* CalculatorViewController.m in Sources */,
 				32F40193159DD3C600889259 /* CalculatorBrain.m in Sources */,
-				32718B25159F3F0500C6F382 /* CalculatorButton.m in Sources */,
-				32718B28159F49C000C6F382 /* CalculatorEnterButton.m in Sources */,
-				32532EFE159F6364001BBF8D /* CalculatorBackground.m in Sources */,
-				32C47982159F81F6000BBDED /* CalculatorNumbersBackground.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +268,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Calculator/Calculator-Prefix.pch";
 				INFOPLIST_FILE = "Calculator/Calculator-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -285,7 +281,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Calculator/Calculator-Prefix.pch";
 				INFOPLIST_FILE = "Calculator/Calculator-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
