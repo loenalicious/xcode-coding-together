@@ -67,7 +67,7 @@
         
     } else if([operation isEqualToString:@"sqrt"]) {
         
-        result = sqrt([self popOperand]/180*M_PI);
+        result = sqrt([self popOperand]);
         
     } else if([operation isEqualToString:@"π"]) {
         
